@@ -1,0 +1,14 @@
+持っている服を管理するアプリ
+似たようなitemを買ったり、衝動買いをしないようにする、クローゼットがパンパンにならないようにするのが目的
+アイテムを登録して把握（todo_input.php,create_file.php,todo_create.php,todo_read.php)
+itemの色と季節で抽出(todo_read_1.php)
+不要かなと思うitemを可視化して本当に不要か検討する(trash.php)
+画面上でコーデを考えて、新しい発見をする（random.php)
+クローゼットのキャパを考える,気分が変わるのでDBに入れて最新のを表示する、季節、itemの種類を表示して把握する
+(capacity_input.php,capacity_act.php、wardrobe.php))
+どんなシーンで何を着たか、記録する機能(diary_input.php,create_file2.php,diary_create.php,diary_read.php)
+できていないこと
+・デザイン（今からやります,top.html,top.cssを途中で投げ出しました）
+・ラジオボタンでinputしたデータをDBに入れることはできるが、edit画面に表示ができないためupdateができない（色々試したができませーん）
+・いいねボタンは要らないかもしれないので動きません
+・全体的にupdated_atをDBに入れていないので今から改善します。
